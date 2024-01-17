@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the Movies App!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f7f7;
+            text-align: center;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Welcome to the Movies App!</h1>
+
+    <p>Explore the fantastic world of movies with our RESTful API. Below are the key endpoints to get you started.</p>
+
+    <table>
+        <tr>
+            <th>API Description</th>
+            <th>API Format</th>
+            <th>Example</th>
+        </tr>
+        <!-- Movies Endpoints -->
+        <tr>
+            <td>Retrieves a paginated list of all movies available in the database.</td>
+            <td>movies</td>
+            <td><a href="http://localhost:8000/movies" target="_blank">Explore Movies</a></td>
+        </tr>
+        <tr>
+            <td>Creates a new entry in the movie database.</td>
+            <td>movies</td>
+            <td><a href="http://localhost:8000/movies" target="_blank" data-method="POST">Add a Movie</a></td>
+        </tr>
+        <tr>
+            <td>Retrieves detailed information about a specific movie identified by its unique ID.</td>
+            <td>movies/{id}</td>
+            <td><a href="http://localhost:8000/movies/1" target="_blank" data-method="GET">View Movie Details</a></td>
+        </tr>
+        <tr>
+            <td>Updates the details of an existing movie identified by its unique ID.</td>
+            <td>movies/{id}</td>
+            <td><a href="http://localhost:8000/movies/1" target="_blank" data-method="PUT">Edit Movie</a></td>
+        </tr>
+        <tr>
+            <td>Partially updates the details of an existing movie identified by its unique ID.</td>
+            <td>movies/{id}</td>
+            <td><a href="http://localhost:8000/movies/1" target="_blank" data-method="PATCH">Modify Movie</a></td>
+        </tr>
+        <tr>
+            <td>Deletes the entry of a movie identified by its unique ID.</td>
+            <td>movies/{id}</td>
+            <td><a href="http://localhost:8000/movies/1" target="_blank" data-method="DELETE">Remove Movie</a></td>
+        </tr>
+    </table>
+</body>
+
+</html>

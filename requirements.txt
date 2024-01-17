@@ -1,0 +1,74 @@
+# asgiref==3.4.1: ASGI reference implementation for asynchronous communication.
+asgiref==3.4.1
+
+# certifi==2021.5.30: Collection of Root Certificates for SSL certificate validation.
+certifi==2021.5.30
+
+# charset-normalizer==2.0.4: Library for encoding and decoding character sets.
+charset-normalizer==2.0.4
+
+# coreapi==2.3.3: Python client library for Core API.
+coreapi==2.3.3
+
+# coreschema==0.0.4: Python implementation of Core Schema.
+coreschema==0.0.4
+
+# Django==3.0.4: Web framework for building web applications using Python.
+Django==3.0.4
+
+# django-filter==2.4.0: Provides a convenient way of filtering Django querysets.
+django-filter==2.4.0
+
+# djangorestframework==3.12.2: Toolkit for building Web APIs in Django.
+djangorestframework==3.12.2
+
+# drf-yasg==1.20.0: Yet Another Swagger Generator for Django Rest Framework APIs.
+drf-yasg==1.20.0
+
+# idna==3.2: Support for Internationalized Domain Names in Applications (IDNA).
+idna==3.2
+
+# inflection==0.5.1: String transformation functions for Python.
+inflection==0.5.1
+
+# itypes==1.2.0: Library for working with generic types in Python.
+itypes==1.2.0
+
+# Jinja2==3.0.1: Modern and designer-friendly templating engine for Python.
+Jinja2==3.0.1
+
+# MarkupSafe==2.0.1: Implements a text object that escapes characters for safe use in HTML and XML.
+MarkupSafe==2.0.1
+
+# packaging==21.0: Core utilities for Python packages.
+packaging==21.0
+
+# pyparsing==2.4.7: General parsing module for Python.
+pyparsing==2.4.7
+
+# python-dateutil==2.8.2: Extensions to the standard Python `datetime` module.
+python-dateutil==2.8.2
+
+# pytz==2021.1: World timezone definitions, modern and historical.
+pytz==2021.1
+
+# requests==2.26.0: HTTP library for making requests.
+requests==2.26.0
+
+# ruamel.yaml==0.17.16: YAML parser and emitter for Python.
+ruamel.yaml==0.17.16
+
+# ruamel.yaml.clib: C bindings for the ruamel.yaml library.
+ruamel.yaml.clib
+
+# six==1.16.0: Python 2 and 3 compatibility library.
+six==1.16.0
+
+# sqlparse==0.4.1: A non-validating SQL parser for Python.
+sqlparse==0.4.1
+
+# uritemplate==3.0.1: URI template library for Python.
+uritemplate==3.0.1
+
+# urllib3==1.26.6: Powerful HTTP client for Python.
+urllib3==1.26.6
